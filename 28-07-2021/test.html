@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Nodejs</title>
+<style>
+.prompt {
+font-size: 30px;
+color: rgb(58, 45, 133);
+font-weight: bold;
+margin-bottom: 5px;
+}
+.container {
+width: 50%;
+}
+.left-pane {
+width: 50%;
+
+}
+.right-pane {
+width: 50%;
+
+}
+.submit-name {
+    border-color: brown;
+clear: both;
+}
+</style>
+</head>
+<body>
+<h1>Addition with Nodejs</h1>
+
+<form method='GET' action="/getsum">
+<div class="container">
+<div class="prompt left-pane">
+<span>Give 2 numbers for sum</span>
+</div>
+<div class="right-pane">
+<input type="text" id="number1" name="Num1" />
+<input type="text" id="number2" name="Num2" />
+</div>
+</div>
+<div class="submit-name">
+<input type="submit" value="sum" />
+</div>
+</div>
+</form>
+</body>
+</html>
